@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Test | My New Hugo Site</title>
+<title>Creating Your Personal Ubuntu Server: A Comprehensive Step-by-Step Tutorial | My New Hugo Site</title>
 <meta name="keywords" content="">
-<meta name="description" content="hye im eysing here it doana asdhlald afdahj;ahf dfhsli;f">
+<meta name="description" content="Imagine all your photos, videos, documents, and even the music you love, all in one safe place that you control. That&rsquo;s what a home server does for you. Setting up a home server serves as your personal hub for digital activities within your home network. It&rsquo;s like having your own mini data center right at home. The primary purpose of a home server is to centralize and manage various services and resources, making your digital life more convenient and efficient.">
 <meta name="author" content="">
 <link rel="canonical" href="https://shashankmcode.github.io/blog/docs/test/">
 <link crossorigin="anonymous" href="/blog/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
@@ -56,16 +56,16 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Test" />
-<meta property="og:description" content="hye im eysing here it doana asdhlald afdahj;ahf dfhsli;f" />
+</noscript><meta property="og:title" content="Creating Your Personal Ubuntu Server: A Comprehensive Step-by-Step Tutorial" />
+<meta property="og:description" content="Imagine all your photos, videos, documents, and even the music you love, all in one safe place that you control. That&rsquo;s what a home server does for you. Setting up a home server serves as your personal hub for digital activities within your home network. It&rsquo;s like having your own mini data center right at home. The primary purpose of a home server is to centralize and manage various services and resources, making your digital life more convenient and efficient." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shashankmcode.github.io/blog/docs/test/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2023-09-20T00:03:00+05:30" />
 <meta property="article:modified_time" content="2023-09-20T00:03:00+05:30" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Test"/>
-<meta name="twitter:description" content="hye im eysing here it doana asdhlald afdahj;ahf dfhsli;f"/>
+<meta name="twitter:title" content="Creating Your Personal Ubuntu Server: A Comprehensive Step-by-Step Tutorial"/>
+<meta name="twitter:description" content="Imagine all your photos, videos, documents, and even the music you love, all in one safe place that you control. That&rsquo;s what a home server does for you. Setting up a home server serves as your personal hub for digital activities within your home network. It&rsquo;s like having your own mini data center right at home. The primary purpose of a home server is to centralize and manage various services and resources, making your digital life more convenient and efficient."/>
 
 
 <script type="application/ld+json">
@@ -82,7 +82,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Test",
+      "name": "Creating Your Personal Ubuntu Server: A Comprehensive Step-by-Step Tutorial",
       "item": "https://shashankmcode.github.io/blog/docs/test/"
     }
   ]
@@ -92,14 +92,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Test",
-  "name": "Test",
-  "description": "hye im eysing here it doana asdhlald afdahj;ahf dfhsli;f",
+  "headline": "Creating Your Personal Ubuntu Server: A Comprehensive Step-by-Step Tutorial",
+  "name": "Creating Your Personal Ubuntu Server: A Comprehensive Step-by-Step Tutorial",
+  "description": "Imagine all your photos, videos, documents, and even the music you love, all in one safe place that you control. That\u0026rsquo;s what a home server does for you. Setting up a home server serves as your personal hub for digital activities within your home network. It\u0026rsquo;s like having your own mini data center right at home. The primary purpose of a home server is to centralize and manage various services and resources, making your digital life more convenient and efficient.",
   "keywords": [
     
   ],
-  "articleBody": "hye im eysing here it doana asdhlald afdahj;ahf dfhsli;f\n",
-  "wordCount" : "9",
+  "articleBody": "Imagine all your photos, videos, documents, and even the music you love, all in one safe place that you control. That’s what a home server does for you. Setting up a home server serves as your personal hub for digital activities within your home network. It’s like having your own mini data center right at home. The primary purpose of a home server is to centralize and manage various services and resources, making your digital life more convenient and efficient.\nThis post offers a step-by-step guide for setting up your own home server.\nHardware Requirements You don’t need a high-end setup to create your own home server. Here are the basic hardware requirements:\nComputer: Any laptop or PC will do. Storage: A hard drive or SSD with sufficient storage space for your needs. Memory (RAM): 4GB or more is recommended for smoother performance. Processor: A standard CPU will suffice. Prerequisites Before you get started, make sure you have the following:\nUbuntu: Ensure that Ubuntu is installed on your laptop or PC. If not, you can download and install it from the official Ubuntu website. Now that you have the necessary hardware and software, let’s begin the setup process.\n1 Enabling SSH on Ubuntu To enable SSH on your Ubuntu system, follow these steps:\nOpen the Terminal: Press Ctrl + Alt + T together to open the Terminal or find it in the applications menu.\nInstall the OpenSSH Client: In the Terminal, run the following command to install the OpenSSH client:\nsudo apt install openssh-client You may be prompted to enter your user password to confirm the installation.\n1.1 Accessing Your Server’s Terminal from Another Computer Once you’ve enabled SSH on your server, you can access its terminal securely from another computer, acting as a client. Here’s how:\nOpen a Terminal on the Client Computer: On the computer you want to use to connect to your server, open a terminal. The procedure may vary depending on your client’s operating system (e.g., Windows, macOS, or Linux).\nConnect to the Server: In the terminal on your client computer, use the following command to connect to your server, replacing server_ip with the actual IP address or hostname of your server:\nssh username@server_ip Configuring SSH to Start Automatically\nTo ensure that SSH starts automatically after your server boots up, you can follow these steps:\nStart SSH Service: Open a terminal on your server and run the following command to start the SSH service:\nsudo systemctl enable ssh sudo systemctl start ssh 1.2 Allowing SSH Access Through the Firewall By default, the firewall on your server may block SSH for security reasons. To enable SSH access, follow these steps:\nAllow SSH Through the Firewall: Run the following command to allow SSH traffic through the firewall. This command opens port 22, which is the default SSH port:\nsudo ufw allow ssh 2 Converting Ubuntu Desktop to Ubuntu Server With the fundamental steps completed, the next task is to convert your Ubuntu desktop into an Ubuntu server environment\nInstall Ubuntu Server Package: Run the following command to install the Ubuntu server package:\nsudo apt install ubuntu-server 2.1 Switching to Multi-User Mode for Enhanced Performance In some cases, you may not require a graphical desktop environment on your Ubuntu server, especially when you want to optimize system resources, such as RAM and CPU usage. To achieve this, you can switch to a multi-user target, which provides a text-based console interface for interacting with the system.\nHere’s how you can switch to multi-user mode:\nRun the Command: Execute the following command within the terminal:\nsudo systemctl set-default multi-user.target 3 Accessing Your Server via Web Interface (Recommended: Umbrel) Congratulations! You now have a fully functional Ubuntu server running at your home, ready to serve your needs. If you prefer an intuitive and beginner-friendly way to manage your server’s console through a web interface, you have several options to choose from, such as CasaOS, Cockpit, and Umbrel.\nFor a user-friendly and straightforward experience, I recommend going with Umbrel. Here’s why:\nSimplified Management: Umbrel provides an easy-to-navigate web interface that simplifies server management tasks.\nBitcoin and Lightning Node: If you’re into cryptocurrency and want to run a Bitcoin and Lightning node, Umbrel offers an all-in-one solution.\nCommunity Support: Umbrel has an active community and a wealth of resources, making it ideal for beginners.\nTo get started with Umbrel:\nVisit the Umbrel website and follow their installation instructions to set up the web-based interface on your server.\nOnce installed, access your server’s console and manage it conveniently through the Umbrel web interface.\nWith Umbrel, you’ll have an accessible and user-friendly way to interact with your Ubuntu server, making it an excellent choice for both beginners and experienced users.\nHopefully, this post has given you a starting point for your Ubuntu server journey. Your server, your choices! Explore Nextcloud (file storage), Plex (media), Bitwarden (passwords), and more. It’s time to make your server work for you!\n",
+  "wordCount" : "821",
   "inLanguage": "en",
   "datePublished": "2023-09-20T00:03:00+05:30",
   "dateModified": "2023-09-20T00:03:00+05:30",
@@ -168,16 +168,110 @@
   <header class="post-header">
     
     <h1 class="post-title">
-      Test
+      Creating Your Personal Ubuntu Server: A Comprehensive Step-by-Step Tutorial
     </h1>
     <div class="post-meta"><span title='2023-09-20 00:03:00 +0530 +0530'>September 20, 2023</span>
 
 </div>
   </header> 
-  <div class="post-content"><p>hye im eysing here it doana
-asdhlald
-afdahj;ahf
-dfhsli;f</p>
+  <div class="post-content"><p>Imagine all your photos, videos, documents, and even the music you love, all in one safe place that you control. That&rsquo;s what a home server does for you. Setting up a home server serves as your personal hub for digital activities within your home network. It&rsquo;s like having your own mini data center right at home. The primary purpose of a home server is to centralize and manage various services and resources, making your digital life more convenient and efficient.</p>
+<p>This post offers a step-by-step guide for setting up your own home server.</p>
+<h3 id="hardware-requirements">Hardware Requirements<a hidden class="anchor" aria-hidden="true" href="#hardware-requirements">#</a></h3>
+<p>You don&rsquo;t need a high-end setup to create your own home server. Here are the basic hardware requirements:</p>
+<ul>
+<li><strong>Computer:</strong> Any laptop or PC will do.</li>
+<li><strong>Storage:</strong> A hard drive or SSD with sufficient storage space for your needs.</li>
+<li><strong>Memory (RAM):</strong> 4GB or more is recommended for smoother performance.</li>
+<li><strong>Processor:</strong> A standard CPU will suffice.</li>
+</ul>
+<h3 id="prerequisites">Prerequisites<a hidden class="anchor" aria-hidden="true" href="#prerequisites">#</a></h3>
+<p>Before you get started, make sure you have the following:</p>
+<ul>
+<li><strong>Ubuntu:</strong> Ensure that Ubuntu is installed on your laptop or PC. If not, you can download and install it from the official <a href="https://ubuntu.com/download">Ubuntu website</a>.</li>
+</ul>
+<p>Now that you have the necessary hardware and software, let&rsquo;s begin the setup process.</p>
+<h3 id="1-enabling-ssh-on-ubuntu">1 Enabling SSH on Ubuntu<a hidden class="anchor" aria-hidden="true" href="#1-enabling-ssh-on-ubuntu">#</a></h3>
+<p>To enable SSH on your Ubuntu system, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Open the Terminal:</strong> Press <code>Ctrl</code> + <code>Alt</code> + <code>T</code> together to open the Terminal or find it in the applications menu.</p>
+</li>
+<li>
+<p><strong>Install the OpenSSH Client:</strong> In the Terminal, run the following command to install the OpenSSH client:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install openssh-client
+</span></span></code></pre></div></li>
+</ol>
+<p>You may be prompted to enter your user password to confirm the installation.</p>
+<h3 id="11-accessing-your-servers-terminal-from-another-computer">1.1 Accessing Your Server&rsquo;s Terminal from Another Computer<a hidden class="anchor" aria-hidden="true" href="#11-accessing-your-servers-terminal-from-another-computer">#</a></h3>
+<p>Once you&rsquo;ve enabled SSH on your server, you can access its terminal securely from another computer, acting as a client. Here&rsquo;s how:</p>
+<ol>
+<li>
+<p><strong>Open a Terminal on the Client Computer:</strong> On the computer you want to use to connect to your server, open a terminal. The procedure may vary depending on your client&rsquo;s operating system (e.g., Windows, macOS, or Linux).</p>
+</li>
+<li>
+<p><strong>Connect to the Server:</strong> In the terminal on your client computer, use the following command to connect to your server, replacing <code>server_ip</code> with the actual IP address or hostname of your server:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh username@server_ip
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Configuring SSH to Start Automatically</strong></p>
+<p>To ensure that SSH starts automatically after your server boots up, you can follow these steps:</p>
+</li>
+<li>
+<p><strong>Start SSH Service:</strong> Open a terminal on your server and run the following command to start the SSH service:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl enable ssh
+</span></span><span style="display:flex;"><span>sudo systemctl start ssh
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="12-allowing-ssh-access-through-the-firewall">1.2 Allowing SSH Access Through the Firewall<a hidden class="anchor" aria-hidden="true" href="#12-allowing-ssh-access-through-the-firewall">#</a></h3>
+<p>By default, the firewall on your server may block SSH for security reasons. To enable SSH access, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Allow SSH Through the Firewall:</strong> Run the following command to allow SSH traffic through the firewall. This command opens port 22, which is the default SSH port:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ufw allow ssh
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="2-converting-ubuntu-desktop-to-ubuntu-server">2 Converting Ubuntu Desktop to Ubuntu Server<a hidden class="anchor" aria-hidden="true" href="#2-converting-ubuntu-desktop-to-ubuntu-server">#</a></h3>
+<p>With the fundamental steps completed, the next task is to convert your Ubuntu desktop into an Ubuntu server environment</p>
+<ol>
+<li>
+<p><strong>Install Ubuntu Server Package:</strong> Run the following command to install the Ubuntu server package:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install ubuntu-server
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="21-switching-to-multi-user-mode-for-enhanced-performance">2.1 Switching to Multi-User Mode for Enhanced Performance<a hidden class="anchor" aria-hidden="true" href="#21-switching-to-multi-user-mode-for-enhanced-performance">#</a></h3>
+<p>In some cases, you may not require a graphical desktop environment on your Ubuntu server, especially when you want to optimize system resources, such as RAM and CPU usage. To achieve this, you can switch to a multi-user target, which provides a text-based console interface for interacting with the system.</p>
+<p>Here&rsquo;s how you can switch to multi-user mode:</p>
+<ol>
+<li>
+<p><strong>Run the Command:</strong> Execute the following command within the terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl set-default multi-user.target
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="3-accessing-your-server-via-web-interface-recommended-umbrel">3 Accessing Your Server via Web Interface (Recommended: Umbrel)<a hidden class="anchor" aria-hidden="true" href="#3-accessing-your-server-via-web-interface-recommended-umbrel">#</a></h3>
+<p>Congratulations! You now have a fully functional Ubuntu server running at your home, ready to serve your needs. If you prefer an intuitive and beginner-friendly way to manage your server&rsquo;s console through a web interface, you have several options to choose from, such as CasaOS, Cockpit, and Umbrel.</p>
+<p>For a user-friendly and straightforward experience, I recommend going with <strong>Umbrel</strong>. Here&rsquo;s why:</p>
+<ul>
+<li>
+<p><strong>Simplified Management:</strong> Umbrel provides an easy-to-navigate web interface that simplifies server management tasks.</p>
+</li>
+<li>
+<p><strong>Bitcoin and Lightning Node:</strong> If you&rsquo;re into cryptocurrency and want to run a Bitcoin and Lightning node, Umbrel offers an all-in-one solution.</p>
+</li>
+<li>
+<p><strong>Community Support:</strong> Umbrel has an active community and a wealth of resources, making it ideal for beginners.</p>
+</li>
+</ul>
+<p>To get started with Umbrel:</p>
+<ol>
+<li>
+<p>Visit the <a href="https://getumbrel.com/">Umbrel website</a> and follow their installation instructions to set up the web-based interface on your server.</p>
+</li>
+<li>
+<p>Once installed, access your server&rsquo;s console and manage it conveniently through the Umbrel web interface.</p>
+</li>
+</ol>
+<p>With Umbrel, you&rsquo;ll have an accessible and user-friendly way to interact with your Ubuntu server, making it an excellent choice for both beginners and experienced users.</p>
+<p>Hopefully, this post has given you a starting point for your Ubuntu server journey. Your server, your choices! Explore Nextcloud (file storage), Plex (media), Bitwarden (passwords), and more. It&rsquo;s time to make your server work for you!</p>
 
 
   </div>
