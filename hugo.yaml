@@ -4,3 +4,4 @@ title: SHASHANK
 theme: PaperMod
 params:
   ShowCodeCopyButtons: true
+  ShowShareButtons: true
