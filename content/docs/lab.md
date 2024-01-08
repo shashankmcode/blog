@@ -6,15 +6,15 @@ title = 'lab program(temporary post)'
 
 # Table of Contents
 
-1. [Program 1](#program-1)
-2. [Program 2](#program-2)
-3. [Program 3](#program-3)
-4. [Program 4](#program-4)
-5. [Program 5](#program-5)
-6. [Program 6](#program-6)
-7. [Program 7](#program-7)
-8. [Program 8](#program-8)
-9. [Program 9](#program-9)
+1. [Program 1](#program-1) <font size="3">A * Search</font>
+2. [Program 2](#program-2) <font size="3">AO* Search </font>
+3. [Program 3](#program-3) <font size="3">Candidate Elimination </font>
+4. [Program 4](#program-4) <font size="3"> Decesion Tree using ID Tree Algo</font>
+5. [Program 5](#program-5) <font size="3">Backpropogation Algo</font>
+6. [Program 6](#program-6) <font size="3">Naive Bayes Classifier </font>
+7. [Program 7](#program-7) <font size="3">K-means EM Algorithm </font>
+8. [Program 8](#program-8) <font size="3">KNN algo</font>
+9. [Program 9](#program-9) <font size="3">Locally Weighted Depression</font>
 
 
 
