@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docs on SHASHANK</title>
-    <link>https:lab.shashank.club/docs/</link>
+    <link>https://lab.shashank.club/docs/</link>
     <description>Recent content in Docs on SHASHANK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Sep 2023 00:03:00 +0530</lastBuildDate><atom:link href="https:lab.shashank.club/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Sep 2023 00:03:00 +0530</lastBuildDate><atom:link href="https://lab.shashank.club/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating Your Personal Ubuntu Server: A Comprehensive Step-by-Step Tutorial</title>
-      <link>https:lab.shashank.club/docs/test/</link>
+      <link>https://lab.shashank.club/docs/test/</link>
       <pubDate>Wed, 20 Sep 2023 00:03:00 +0530</pubDate>
       
-      <guid>https:lab.shashank.club/docs/test/</guid>
+      <guid>https://lab.shashank.club/docs/test/</guid>
       <description>Imagine all your photos, videos, documents, and even the music you love, all in one safe place that you control. That&amp;rsquo;s what a home server does for you. Setting up a home server serves as your personal hub for digital activities within your home network. It&amp;rsquo;s like having your own mini data center right at home. The primary purpose of a home server is to centralize and manage various services and resources, making your digital life more convenient and efficient.</description>
     </item>
     
     <item>
       <title>lab program(temporary post)</title>
-      <link>https:lab.shashank.club/docs/lab/</link>
+      <link>https://lab.shashank.club/docs/lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https:lab.shashank.club/docs/lab/</guid>
+      <guid>https://lab.shashank.club/docs/lab/</guid>
       <description>Table of Contents Program 1 Program 2 Program 3 Program 4 Program 5 Program 6 Program 7 Program 8 Program 9 Program 1 def aStarAlgo(start_node, stop_node): open_set = set([start_node]) closed_set = set() g = {start_node: 0} parents = {start_node: start_node} while len(open_set) &amp;gt; 0: n = None for v in open_set: if n is None or g[v] + heuristic(v) &amp;lt; g[n] + heuristic(n): n = v if n == stop_node or Graph_nodes[n] is None: pass else: for (m, weight) in get_neighbors(n): if m not in open_set and m not in closed_set: open_set.</description>
     </item>
     
