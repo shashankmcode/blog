@@ -15,7 +15,8 @@ title = 'lab program(temporary post)'
 7. [Program 7](#program-7) <font size="3">K-means EM Algorithm </font>
 8. [Program 8](#program-8) <font size="3">KNN algo</font>
 9. [Program 9](#program-9) <font size="3">Locally Weighted Depression</font>
-
+10. [enjoySport pgm-3 csv file](https://www.vtuloop.com/download/1-machine-learning-laboratory-dataset/?wpdmdl=6714&amp;refresh=6596c4cc1d1e91704379596)
+11. [ID3 pgm 4&6 csv file](https://www.vtuloop.com/download/3-machine-learning-laboratory-dataset/?wpdmdl=6717&amp;refresh=6595c4882ec041704313992)
 
 
 
@@ -493,7 +494,7 @@ def local_regression(x0, x, y, tau):
     x0 = np.r_[1, x0]
     x = np.c_[np.ones(len(x)), x]
     xw = x.T * radial_kernel(x0, x, tau)
-    # beta = np.linalg.pinv(xw @ x) @ xw @ y
+    beta = np.linalg.pinv(xw @ x) @ xw @ y
     return x0 @ beta
 
 def radial_kernel(x0, x, tau):
