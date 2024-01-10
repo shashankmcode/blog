@@ -22,7 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lab.shashank.club/docs/lab/</guid>
-      <description>Table of Contents Program 1 A * Search Program 2 AO* Search Program 3 Candidate Elimination Program 4 Decesion Tree using ID Tree Algo Program 5 Backpropogation Algo Program 6 Naive Bayes Classifier Program 7 K-means EM Algorithm Program 8 KNN algo Program 9 Locally Weighted Depression Program 1 def aStarAlgo(start_node, stop_node): open_set = set([start_node]) closed_set = set() g = {start_node: 0} parents = {start_node: start_node} while len(open_set) &amp;gt; 0: n = None for v in open_set: if n is None or g[v] + heuristic(v) &amp;lt; g[n] + heuristic(n): n = v if n == stop_node or Graph_nodes[n] is None: pass else: for (m, weight) in get_neighbors(n): if m not in open_set and m not in closed_set: open_set.</description>
+      <description>Table of Contents Program 1 A * Search Program 2 AO* Search Program 3 Candidate Elimination Program 4 Decesion Tree using ID Tree Algo Program 5 Backpropogation Algo Program 6 Naive Bayes Classifier Program 7 K-means EM Algorithm Program 8 KNN algo Program 9 Locally Weighted Depression enjoySport pgm-3 csv file ID3 pgm 4&amp;amp;6 csv file Program 1 def aStarAlgo(start_node, stop_node): open_set = set([start_node]) closed_set = set() g = {start_node: 0} parents = {start_node: start_node} while len(open_set) &amp;gt; 0: n = None for v in open_set: if n is None or g[v] + heuristic(v) &amp;lt; g[n] + heuristic(n): n = v if n == stop_node or Graph_nodes[n] is None: pass else: for (m, weight) in get_neighbors(n): if m not in open_set and m not in closed_set: open_set.</description>
     </item>
     
   </channel>
