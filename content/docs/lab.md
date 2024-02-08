@@ -4,7 +4,7 @@ title = 'lab program(temporary post)'
 +++
 
 
-# Table of Contents
+# Table of Content
 
 1. [Program 1](#program-1) <font size="3">A * Search</font>
 2. [Program 2](#program-2) <font size="3">AO* Search </font>
